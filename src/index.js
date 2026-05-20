@@ -2,12 +2,17 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
+import LoadMessage from './LoadMessage';
+import Incrementor from './Incrementor';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    <LoadMessage />
+  <Incrementor />
     <App />
+    
   </React.StrictMode>
 );
 
