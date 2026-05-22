@@ -2,6 +2,10 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
+import ButtonClick from './ButtonClick';
+import Stopwatch from './Stopwatch';
+import CounterValue from './CounterValue';
+import DigitalClock from './DigitalClock';
 import LoadMessage from './LoadMessage';
 import Incrementor from './Incrementor';
 import reportWebVitals from './reportWebVitals';
@@ -9,6 +13,10 @@ import reportWebVitals from './reportWebVitals';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    <Stopwatch />
+    <CounterValue/>
+    <ButtonClick />
+    <DigitalClock />  
     <LoadMessage />
   <Incrementor />
     <App />

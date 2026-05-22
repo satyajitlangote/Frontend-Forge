@@ -8,7 +8,7 @@ function LoadMessage() {
 
   return (
     <div>
-      <h1>Component Mounted Successfully</h1>
+      <h1>Satyajit Langote</h1>
     </div>
   );
 }
