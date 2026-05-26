@@ -1,6 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
+import FeeStatus from './FeeStatus';
+import GradeCalculator from './GradeCalculator';
+import ResultCard from './ResultCard';
+import BackgroundColor from './BackgroundColor';
 import App from './App';
 import ButtonClick from './ButtonClick';
 import Stopwatch from './Stopwatch';
@@ -13,6 +17,9 @@ import reportWebVitals from './reportWebVitals';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    <FeeStatus />
+    <BackgroundColor />
+    <ResultCard/>
     <Stopwatch />
     <CounterValue/>
     <ButtonClick />
