@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import ElectricityBill from './ElectricityBill';
 import ProfileCard from './ProfileCard';
-
+import UsernameForm from './UsernameForm';
 import FeeStatus from './FeeStatus';
 import GradeCalculator from './GradeCalculator';
 import ResultCard from './ResultCard';
@@ -22,6 +22,7 @@ import MessagePrinter from './MessagePrinter';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    <UsernameForm />
     <MessagePrinter />
     <BackgroundColors />
     <ElectricityBill />
