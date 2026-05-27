@@ -17,10 +17,12 @@ import LoadMessage from './LoadMessage';
 import Incrementor from './Incrementor';
 import reportWebVitals from './reportWebVitals';
 import BackgroundColors from './BackgroundColors';
+import MessagePrinter from './MessagePrinter'; 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    <MessagePrinter />
     <BackgroundColors />
     <ElectricityBill />
     <ProfileCard/>
