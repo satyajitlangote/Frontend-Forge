@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
+import ElectricityBill from './ElectricityBill';
 import ProfileCard from './ProfileCard';
 
 import FeeStatus from './FeeStatus';
@@ -15,10 +16,13 @@ import DigitalClock from './DigitalClock';
 import LoadMessage from './LoadMessage';
 import Incrementor from './Incrementor';
 import reportWebVitals from './reportWebVitals';
+import BackgroundColors from './BackgroundColors';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    <BackgroundColors />
+    <ElectricityBill />
     <ProfileCard/>
     <FeeStatus />
     <BackgroundColor />
